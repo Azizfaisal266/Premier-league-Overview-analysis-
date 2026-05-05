@@ -2,18 +2,23 @@
 This project analyze the player performances and his contribution
 ## Tools used : 
 Microsoft Excel 
-Imported and prepared player dataset using Power Query
-Renamed columns for better readability (e.g., converting "Age" to "PlayerAge")
-Cleaned player age data by extracting only the age value from complex format (e.g., "29-240" → "29")
-Used "Column From Examples" to automate data transformation
-Changed data types to appropriate formats (e.g., PlayerAge to Whole Number)
-Split player positions into separate rows using delimiter (e.g., "FW,AM" → "FW" and "AM")
-Reordered and removed unnecessary columns to improve dataset structure
-Added index column for better data organization and renamed it to playerID
-Ensured the dataset is clean and ready for analysis 
-Loaded cleaned tables into Power Pivot
-Created relationships between tables (e.g., PlayerID between Fact table and Player_Position Dim table)
-Built a data model to handle multiple tables efficiently
-Created measuresand Dax functions for analysis
-Used Pivot Tables to generate insights from the data model
+Data Preparation (Power Query)
+Imported and transformed raw player dataset using Power Query
+Renamed columns to improve clarity and consistency (e.g., "Age" → "PlayerAge")
+Cleaned player age data by extracting numeric values from complex formats (e.g., "29-240" → "29")
+Applied "Column From Examples" to automate and streamline data transformation
+Standardized data types (e.g., converting PlayerAge to Whole Number) to ensure accurate analysis
+Split multi-value position fields into separate rows using delimiter (e.g., "FW,AM" → "FW" and "AM")
+Removed unnecessary columns and reordered fields to optimize dataset structure
+Created and renamed an index column as PlayerID to uniquely identify each record
+Delivered a clean, structured dataset ready for data modeling and analysis
+
+Data Modeling (Power Pivot)
+Loaded cleaned and transformed tables into Power Pivot
+Established relationships between tables (e.g., PlayerID linking main dataset with Player_Position table)
+Designed a structured data model to efficiently manage multiple related tables
+Created calculated columns and DAX measures to support advanced analysis
+Leveraged Pivot Tables to extract insights from the data model
+Enabled dynamic analysis through an integrated and scalable data
+
 
