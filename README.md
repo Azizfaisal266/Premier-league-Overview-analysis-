@@ -1,24 +1,55 @@
-## Premier league Overall performance analysis 
-This project analyze the player performances and his contribution
-## Tools used : 
-Microsoft Excel 
-Data Preparation (Power Query)
-Imported and transformed raw player dataset using Power Query
-Renamed columns to improve clarity and consistency (e.g., "Age" → "PlayerAge")
-Cleaned player age data by extracting numeric values from complex formats (e.g., "29-240" → "29")
-Applied "Column From Examples" to automate and streamline data transformation
-Standardized data types (e.g., converting PlayerAge to Whole Number) to ensure accurate analysis
-Split multi-value position fields into separate rows using delimiter (e.g., "FW,AM" → "FW" and "AM")
-Removed unnecessary columns and reordered fields to optimize dataset structure
-Created and renamed an index column as PlayerID to uniquely identify each record
-Delivered a clean, structured dataset ready for data modeling and analysis
+# Premier League Overall Performance Analysis
 
-Data Modeling (Power Pivot)
-Loaded cleaned and transformed tables into Power Pivot
-Established relationships between tables (e.g., PlayerID linking main dataset with Player_Position table)
-Designed a structured data model to efficiently manage multiple related tables
-Created calculated columns and DAX measures to support advanced analysis
-Leveraged Pivot Tables to extract insights from the data model
-Enabled dynamic analysis through an integrated and scalable data
+This project analyzes **Premier League player performance** and their contribution across different performance metrics using Microsoft Excel.
 
+## 📊 Project Overview
+
+The analysis transforms raw player data into a structured analytical dataset and provides insights into player performance, positions, and overall contribution.
+
+## 🛠️ Tools Used
+
+### Microsoft Excel
+
+* **Power Query** — Data preparation and transformation
+* **Power Pivot** — Data modeling and relationships
+* **DAX** — Calculated columns and measures
+* **Pivot Tables** — Data analysis and insight generation
+
+## 🔄 Data Preparation — Power Query
+
+The raw player dataset was cleaned and transformed using Power Query:
+
+* Imported and transformed the raw player dataset.
+* Renamed columns to improve clarity and consistency, such as `Age` → `PlayerAge`.
+* Cleaned player age data by extracting numeric values from complex formats, such as `29-240` → `29`.
+* Used **Column From Examples** to automate data transformation.
+* Standardized data types, including converting `PlayerAge` to a Whole Number.
+* Split multi-value position fields into separate rows using a delimiter, such as `FW,AM` → `FW` and `AM`.
+* Removed unnecessary columns and reorganized the dataset.
+* Created and renamed an index column as `PlayerID` to uniquely identify each player record.
+* Produced a clean and structured dataset ready for data modeling and analysis.
+
+## 🧩 Data Modeling — Power Pivot
+
+The cleaned data was loaded into Power Pivot to create a structured data model:
+
+* Loaded the transformed tables into Power Pivot.
+* Established relationships between related tables using `PlayerID`.
+* Created a structured model to manage multiple related tables efficiently.
+* Created calculated columns and **DAX measures** for advanced analysis.
+* Used Pivot Tables to extract meaningful insights from the data model.
+* Enabled dynamic analysis through an integrated and scalable data model.
+
+## 🎯 Project Goal
+
+The goal of this project is to transform raw Premier League player data into meaningful insights by combining **data cleaning, data modeling, DAX, and analytical reporting** in Excel.
+
+## 📷 Dashboard Preview
+
+![Premier League Overall Performance Analysis](dashboard.png)
+
+## 📁 Project Files
+
+* `Premier League Overview Analysis.xlsx` — Excel analysis and dashboard
+* `README.md` — Project documentation
 
