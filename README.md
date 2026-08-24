@@ -45,9 +45,13 @@ The cleaned data was loaded into Power Pivot to create a structured data model:
 The goal of this project is to transform raw Premier League player data into meaningful insights by combining **data cleaning, data modeling, DAX, and analytical reporting** in Excel.
 
 ## 📷 Dashboard Preview
+## 📷 Dashboard Preview
 
-![Premier League Overall Performance Analysis](dashboard.png)
+![Premier League Dashboard - Page 1](IMG-20260505-WA0036.jpg)
 
+![Premier League Dashboard - Page 2](IMG-20260505-WA0037.jpg)
+
+![Premier League Dashboard - Page 3](IMG-20260505-WA0034.jpg)
 ## 📁 Project Files
 
 * `Premier League Overview Analysis.xlsx` — Excel analysis and dashboard
